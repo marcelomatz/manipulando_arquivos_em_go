@@ -68,5 +68,11 @@ func main() {
 	}
 
 	// Deletando um arquivo
-	//err = os.Remove("test.txt")
+	/*
+		err = os.Remove("test.txt")
+		if err != nil {
+			panic(err)
+		}
+		fmt.Println("\nArquivo deletado com sucesso!")
+	*/
 }
